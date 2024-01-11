@@ -1,0 +1,5 @@
+<nav>
+    <div *ngFor="let link of links" class="nav-link" [@fadeInOut]="'visible'" [@highlight] (click)="navigateTo(link)">
+      {{ link }}
+    </div>
+  </nav>
