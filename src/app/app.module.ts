@@ -17,6 +17,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSortModule } from '@angular/material/sort';
 import { FormsModule } from '@angular/forms';
 import { ValidationsDirective } from './directives/validations.directive';
+import { ChangeTextDirective } from './directives/change-text.directive';
+import { CustomTextPageComponent } from './components/custom-text-page/custom-text-page.component';
 
 
 
@@ -27,7 +29,9 @@ import { ValidationsDirective } from './directives/validations.directive';
     NavbarPageComponent,
     IndexPageComponent,
     TablePageComponent,
-    ValidationsDirective
+    ValidationsDirective,
+    ChangeTextDirective,
+    CustomTextPageComponent
   ],
   imports: [
     BrowserModule,

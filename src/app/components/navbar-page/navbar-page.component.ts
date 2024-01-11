@@ -44,7 +44,7 @@ export class NavbarPageComponent {
         route = '/home';
         break;
       case 'Features':
-        route = '/features';
+        route = '/custom';
         break;
       default:
         route = '/';
